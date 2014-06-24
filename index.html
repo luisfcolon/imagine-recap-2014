@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Imagine Recap, New Magento tools, Magento Developer Resources - Luis Colon</title>
+		<meta name="description" content="NYC Magento Developer Meetup presentation. Imagine Recap, New Magento tools, Magento Developer Resources - Luis Colon.">
+		<meta name="author" content="Luis Colon">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Magento Imagine Recap</h2>
+					<h3>New Magento Tools<br/>Magento Developer Resources</h3>
+					<p><small>By Luis Colon&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/lfcolon62">@lfcolon62</a></small></p>
+					<p><small>Technical Lead, Senior Software Developer @ <a href="http://alexanderinteractive.com">Alexander Interactive</a></small></p>
+				</section>
+				<section>
+				    <h2>What is Magento Imagine?</h2>
+				    <p style="text-align:left">Magento's premier eCommerce event, Imagine brings together more than 1,700 merchants, partners, developers, digital industry experts and open source enthusiasts, from over 35 countries, for three days of networking, collaboration, cutting-edge sessions and, of course, imagination!</p>
+				    <p style="margin-top:15px">May 12<sup>th</sup> - 14<sup>th</sup>, 2014<br/>Hard Rock Hotel & Casino Las Vegas</p>
+				    <p><a href="http://www.imagineecommerce.com/">http://www.imagineecommerce.com/</a></p>
+				</section>
+                <section>
+				    <h2>Magento Imagine</h2>
+				    <div><img src="img/gladwell.jpg" width="500" /></div>
+				    <p>Tons of networking, meeting amazing people, events, presentations, demos, keynotes and parties.</p>
+				    <small style="margin-top:50px">Also … gambling, drinking, and going out at night - it is Las Vegas.</small>
+				</section>
+				<section>
+				    <h2>Magento Certified Solutions Specialist</h2>
+				    <p style="text-align:left">A Magento Solution Specialist is an expert user of the Magento ecommerce platform. Drawing on a deep background in business and ecommerce, the Magento Solution Specialist can efficiently align business objectives with Magento functionality, optimize use of native features, and avoid unnecessary customization. Whether as a merchant, a manager, a consultant, or an analyst, the Magento Solution Specialist knows how to make the best use of Magento technology.</p>   
+				    <p style="margin-top: 50px"><a href="http://www.magentocommerce.com/certification/solution-specialist">http://www.magentocommerce.com/certification/solution-specialist</a></p>
+				</section>
+                <section>
+                    <section>
+                        <h2>Magento Hackathon</h2>
+                        <p><img src="img/hackathon.jpg" width="500"></p>
+                        <p>Toss a bunch of developers in a room for 24 hours …<br>… and see what happens!</p>
+                    </section>
+                    
+                    <section>
+                        <h2>Big Brother</h2>
+                        <p>Magento module to monitor user activity - LIVE.</p>
+                        <p>Built using Magento and node.js.</p>
+                        <p style="margin-top: 40px"><a href="http://www.youtube.com/watch?v=Ors7QAIyqso">http://www.youtube.com/watch?v=Ors7QAIyqso</a></p>
+                        <p style="margin-top: 40px">Fork on GitHub: <a href="https://github.com/danslo/BigBrother">https://github.com/danslo/BigBrother</a></p>    
+                    </section>
+                </section>
+                <section>
+                    <section>
+				        <h2>Breakout Sessions</h2>
+				        <p>Fantastic talks on a variety of topics; all Magento centric.</p>
+				        <small style="margin-top:50px">You cannot attend them all, be sure to pick the ones that will benefit you the most.</small>
+				    </section>
+				    <section>
+				        <h3>Magento 2 Front-end Development: New Features</h3>
+				        <p style="text-align:left">Magento 2 introduces new tools and techniques to develop modern front-end experiences. The changes simplify and accelerate the theme development process as well as CSS integrity between themes and extensions.</p>
+				        <p style="margin-top: 50px">PDF: <a href="http://bit.ly/1rvidC1">http://bit.ly/1rvidC1</a></p>
+				        <p>Video: <a href="http://bit.ly/1lNx8X6">http://bit.ly/1lNx8X6</a></p>
+				    </section>
+				    <section>
+				        <h3>Magento 2 Front-end Development: New Features</h3>
+				        <ul>
+				            <li>One folder to rule them all</li>
+				            <li>Themes now have parent/child relationships (fallback)</li>
+				            <li>HTML5, CSS3, LESS</li>
+				            <li>RequireJS integration and jQuery</li>
+				            <li>Mobile first responsive design</li>
+				            <li>Built with the new Magento UI library</li>
+				        </ul>
+				    </section>
+				    <section>
+				        <h3>Magento 2 Service Layer: <br>A Deep Dive into Customer Service</h3>
+				        <p style="text-align:left">Magento UI and core business logic has been spread between models, helpers, and controllers; with the introduction of a service layer there is a clearer separation of concerns which will improve modularity. This session will also cover how a service can quickly be exposed as a web service via configuration. Attendees will benefit from a base understanding of how to write PHP code in Magento 2 introduced in earlier sessions.</p>
+				        <p style="margin-top: 50px">PDF: <a href="http://bit.ly/TgyUF6">http://bit.ly/TgyUF6</a></p>
+				        <p>Video: <a href="http://bit.ly/1jf8yu8">http://bit.ly/1jf8yu8</a></p>
+				    </section>
+				    <section>
+				        <h3>Magento 2 Service Layer: <br>A Deep Dive into Customer Service</h3>
+				        <img src="img/service_layer.jpg" />
+				        <p>Blocks and controllers will communicate with the Service Layer instead of models directly</p>
+				    </section>
+				    <section>
+				        <h3>Magento 2 Service Layer: <br>A Deep Dive into Customer Service</h3>
+				        <p style="margin-top:20px">Benefits on a service layer?</p>
+				        <ul>
+				            <li>Separation of presentation and business logic</li>
+				            <li>Easily create web API's via xml</li>
+				            <li>Service interface cuts down on available code.<br>75 methods on Customer Model, only 25 methods on Customer Service interface</li>
+				            <li>Services are versioned! Backwards compatible</li>
+				        </ul>
+				    </section>
+				    <section>
+				        <h3>Responsive Evolution: Refining Priorities in Multi-Device Frontend Strategy</h3>
+				        <p style="text-align:left">This session will talk about the refinement and evolution of a responsive frontend strategy for the things that matter today. This presentation highlights how changing thoughts and practices relating to frontend architecture have improved performance, user experience, and maintainability on multi-device responsive sites.</p>
+				        <p style="margin-top: 50px">PDF: <a href="http://bit.ly/UHcLBf">http://bit.ly/UHcLBf</a></p>
+				        <p>Video: <a href="http://bit.ly/1nAErQD">http://bit.ly/1nAErQD</a></p>
+				    </section>
+				    <section>
+				        <h3>Responsive Evolution: <br>Refining Priorities in Multi-Device Frontend Strategy</h3>
+				        <ul>
+				            <li>More devices, more problems</li>
+				            <li>Multi-device users are the new normal</li>
+				            <li>Companies don't want to pay for desktop, mobile, and tablet specific sites anymore</li>
+				            <li>Are your systems, values, and goals fitted to the this environment?</li>
+				            <li>Future-friendly priorities</li>
+				            <li>A lot of good information, just watch this video!</li>
+				        </ul>
+				    </section>
+				</section>
+				<section>
+				    <section>
+				        <h3>Cool new magento tools</h3>
+				        <div style="background-color: #fff;margin-bottom: 20px"><img src="img/mageflow.png" /></div>
+				        <p style="text-align:left">A turn-key solution that would automate the entire Magento development workflow from setting up web stacks to deploying code and migrating content between testing, staging and production environments.</p>
+				        <p style="margin-top: 50px"><a href="http://mageflow.com">http://mageflow.com</a></p>
+				    </section>
+				    <section>
+				        <h3>Cool new magento tools</h3>
+				        <div style="background-color: #fff;margin-bottom: 20px"><img src="img/shipperhq.jpg" /></div>
+				        <p style="text-align:left">Created by WebShop Apps - configure your client's shipping logic from an easy to use SAAS.</p>
+				        <p style="margin-top: 50px"><a href="https://shipperhq.com/">https://shipperhq.com/</a></p>
+				    </section>
+				</section>
+				<section>
+				    <section>
+				        <h3>Magento Developer Resources</h3>
+				        <ul>
+				            <li>IDE? No Contest: PHP Storm <a href="http://www.jetbrains.com/phpstorm/">http://www.jetbrains.com/phpstorm/</a></li>
+				            <li>Magicento PHP Storm plugin <a href="http://magicento.com/">http://magicento.com/</a></li>
+				            <li>Commerce Bug by Alan Storm <a href="http://store.pulsestorm.net/products/commerce-bug-2">http://store.pulsestorm.net/products/commerce-bug-2</a></li>
+				        </ul>
+				    </section>
+				    <section>
+				        <h3>Magento Developer Resources</h3>
+				        <p>Save me internet!</p>
+				        <ul>
+				            <li>Magento Knowledge Base <a href="http://www.magentocommerce.com/knowledge-base">http://www.magentocommerce.com/knowledge-base</a></li>
+                            <li>Magento Stack Exchange <a href="http://magento.stackexchange.com/">http://www.magentocommerce.com/knowledge-base</a></li>
+                            <li>Magento Stack Overflow <a href="http://stackoverflow.com/questions/tagged/magento">http://stackoverflow.com/questions/tagged/magento</a></li>
+                            <li>Alan Storm <a href="http://alanstorm.com/category/magento">http://alanstorm.com/category/magento</a></li>
+                            <li>Inchoo <a href="http://inchoo.net/blog/">http://inchoo.net/blog/</a></li>
+                            <li>Joshua Warren <a href="http://joshuawarren.com/">http://joshuawarren.com/</a></li>
+                            <li>MageBase <a href="http://magebase.com/">http://magebase.com/</a></li>
+                            <li>MageDev <a href="http://magedev.com/">http://magedev.com/</a></li>
+				        </ul>
+				    </section>
+				    <section>
+				        <h3>Magento Developer Resources</h3>
+				        <p>For the real nerds</p>
+				        <ul>
+				            <li>IRC #magento channel: <a href="http://irc.lc/freenode/%23magento/t4nk@@@">http://irc.lc/freenode/%23magento/t4nk@@@</a></li>
+				        </ul>
+				    </section>
+				</section>
+				<section>
+				    <h3>Magento Developer Certification Resources</h3>
+				    <p>Download the free study guides provided at the Magento website, then use these links to help prepare.</p>
+                    <ul>
+                        <li><a href="http://magestudyguide.com/">http://magestudyguide.com/</a></li>
+                        <li><a href="http://www.demacmedia.com/magento-commerce/magento-frontend-developer-certification-exam-study-guide-qa/">http://www.demacmedia.com/magento-commerce/magento-frontend-developer-certification-exam-study-guide-qa/</a></li>
+                        <li><a href="http://blog.belvg.com/category/magento-news/developer-certification">http://blog.belvg.com/category/magento-news/developer-certification</a></li>
+                        <li><a href="http://prattski.com/category/magento/">http://prattski.com/category/magento/</a></li>
+                        <li><a href="http://devjunkyard.com/2013/magento-certification-basics-recap/">http://devjunkyard.com/2013/magento-certification-basics-recap/</a></li>
+                        <li>Flash cards: <a href="http://quizlet.com/20443995/magento-certification-preparation-study-guide-answers-flash-cards/">http://quizlet.com/20443995/magento-certification-preparation-study-guide-answers-flash-cards/</a></li>
+                    </ul>
+				</section>
+				<section>
+				    <h2>Fin</h2>
+				    <h3>Thanks!</h3>
+				    <p>Follow me on twitter: <a href="http://twitter.com/lfcolon62">@lfcolon62</a></p>
+				    <p>Email: <a href="mailto:lfc@alexanderinteractive.com">lfc@alexanderinteractive.com</a></p>
+				</section>
+			</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
